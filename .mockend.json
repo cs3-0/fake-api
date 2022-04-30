@@ -1,35 +1,58 @@
 {
-	"Post": {
-	  "cover": {
-		"regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-	  },
-	  "title": {
-		"loremWords": {
-		  "minLength": 5,
-		  "maxLength": 20
-		}
-	  },
-	  "body": {
-		"loremParagraphs": {
-		  "minLength": 10,
-		  "maxLength": 100
-		}
-	  },
-	  "tag": {
-		"string": [
-		  "one",
-		  "two",
-		  "three"
-		]
-	  },
-	  "isDraft": {
-		"boolean": {}
-	  },
-	  "createdAt": {
-		"dateTime": {
-		  "min": "2010-01-01T00:00:00Z",
-		  "max": "2020-12-31T23:59:59Z"
-		}
-	  }
-	}
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "MCCO4rrQ3h",
+      "online": false,
+      "picture": "https://picsum.photos/seed/50/60/60"
+    },
+    {
+      "id": 2,
+      "name": "kIfSa6kPqH",
+      "online": true,
+      "picture": "https://picsum.photos/seed/27/60/60"
+    },
+    {
+      "id": 3,
+      "name": "mVF6AYhDmy",
+      "online": false,
+      "picture": "https://picsum.photos/seed/09/60/60"
+    },
+    {
+      "id": 4,
+      "name": "4SREPIfWZS",
+      "online": false,
+      "picture": "https://picsum.photos/seed/19/60/60"
+    },
+    {
+      "id": 5,
+      "name": "tVESZv0yA4",
+      "online": true,
+      "picture": "https://picsum.photos/seed/24/60/60"
+    },
+    {
+      "id": 6,
+      "name": "ckk0rDNSH0",
+      "online": true,
+      "picture": "https://picsum.photos/seed/84/60/60"
+    },
+    {
+      "id": 7,
+      "name": "WYZV0ihpQI",
+      "online": true,
+      "picture": "https://picsum.photos/seed/29/60/60"
+    },
+    {
+      "id": 8,
+      "name": "94gmGECwM3",
+      "online": true,
+      "picture": "https://picsum.photos/seed/98/60/60"
+    },
+    {
+      "id": 9,
+      "name": "hSidpJf82a",
+      "online": false,
+      "picture": "https://picsum.photos/seed/29/60/60"
+    }
+  ]
+}
